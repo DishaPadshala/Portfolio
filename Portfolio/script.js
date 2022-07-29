@@ -1,5 +1,5 @@
 var audio = new Audio('assets/sentmessage.mp3');
-var contactString = "<div class='social'> <a target='_blank' href='tel:+919484459811'> <div class='socialItem' id='call'><img class='socialItemI' src='images/phone.svg'/>Phone No<label class='number'>9484459811</label></div> </a> <a href='mailto:dishapadshala20@gmail.com'> <div class='socialItem'>Mail id<img class='socialItemI' src='images/gmail.svg' alt=''></div> </a> <a target='_blank' href='https://github.com/Vinayak-09'> <div class='socialItem'>Github<img class='socialItemI' src='images/github.svg' alt=''></div> </a> <a target='_blank' href='https://wa.me/9484459811'> <div class='socialItem'>Whatsapp<img class='socialItemI' src='images/whatsapp.svg' alt=''></div> </a> </a> <a target='_blank' href='https://instagram.com/disha._.20'> <div class='socialItem'>Instagram<img class='socialItemI' src='images/instagram.svg' alt=''> </div> </a> </div>";
+var contactString = "<div class='social'> <a target='_blank' href='tel:+919484459811'> <div class='socialItem' id='call'><img class='socialItemI' src='images/phone.svg'/>Phone No<label class='number'>9484459811</label></div> </a> <a href='mailto:dishapadshala20@gmail.com'> <div class='socialItem'>Mail id<img class='socialItemI' src='images/gmail.svg' alt=''></div> </a> <a target='_blank' href='https://github.com/DishaPadshala'> <div class='socialItem'>Github<img class='socialItemI' src='images/github.svg' alt=''></div> </a> <a target='_blank' href='https://wa.me/9484459811'> <div class='socialItem'>Whatsapp<img class='socialItemI' src='images/whatsapp.svg' alt=''></div> </a> </a> <a target='_blank' href='https://instagram.com/disha._.20'> <div class='socialItem'>Instagram<img class='socialItemI' src='images/instagram.svg' alt=''> </div> </a> </div>";
 var addressString = "<div class='mapview'><iframe src='https://goo.gl/maps/kp4oMZueJkFrBvqw9' class='map'></iframe></div><label class='add'><address>A-104, Akshat icon<br>Sargasan Cross Road<br>Gandhinagar, Gujarat, INDIA 382421</address>";
 function startFunction() {
     setLastSeen();
@@ -98,7 +98,7 @@ function waitAndResponce(inputText) {
             sendTextMessage(contactString);
             break;
         case "projects":
-            sendTextMessage("You want to check my projects? Then just jump into my Github Account.<br><br><div class='social'><a target='_blank' href='https://github.com/Vinayak-09'> <div class='socialItem'><img class='socialItemI' src='images/github.svg' alt=''></div> </a></div>");
+            sendTextMessage("You want to check my projects? Then just jump into my Github Account.<br><br><div class='social'><a target='_blank' href='https://github.com/DishaPadshala'> <div class='socialItem'><img class='socialItemI' src='images/github.svg' alt=''></div> </a></div>");
             break;
         case "new":
             sendTextMessage(addressString);
